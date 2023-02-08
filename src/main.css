@@ -1,3 +1,22 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .centered{
-    justify-self: center;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input{
+    margin: 1vw;
+    padding: 1vw 2vw 1vw 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.button{
+    padding: 0.6vw 1.4vw 0.6vw 1.4vw;
 }
